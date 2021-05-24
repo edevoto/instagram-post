@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+.main-container{
+    margin: 0 auto;
+    width: 70%;
+}
+/*HEADER*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > .logo + i {
+    
+padding:15px ;
+}
+.header > .logo{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.header > .logo > .identifier{
+    flex-direction: column;
+    margin: 0%;
+    padding: 0;
+}
+.header > .logo > .fab{
+    font-size: 30px;
+    margin-right: 1%;
+}
+/*IMAGEN*/
+
+.img > img{
+    width: 100%;
+}
+
+/*ICONOS*/
+.footer{
+    margin: 10px;
+}
+.footer>.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 2rem;
+}
+.footer>.likes{
+    padding: 15px 5px;
+}
+.footer>.post{
+    padding: 5px 5px;
+}
